@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class DataService {
-  private REST_API_SERVER: string = 'http://localhost:3000';
+  private REST_API_SERVER = 'http://localhost:3000/products';
 
   constructor(private httpClient: HttpClient) {}
 
